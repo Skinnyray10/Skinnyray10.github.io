@@ -26,7 +26,7 @@ body {
   color: white;
   position: absolute;
   margin-bottom: 20%;
-  z-index: 1;
+  z-index: 30;
   font-weight: bold;
   letter-spacing: 4px;
 }
@@ -36,6 +36,12 @@ body {
       font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
       margin-bottom: 530px;
       letter-spacing: 3px;
+  }
+
+  .titulo {
+    margin-bottom: 260px;
+    font-size: 1.2rem;
+    padding: 0 1.5rem;
   }
 
 }
@@ -49,6 +55,7 @@ body {
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
+  z-index: 40;
 }
 @keyframes fadeIn {
   from {
